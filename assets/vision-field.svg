@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 540" fill="none">
+<defs>
+  <pattern id="grid" width="35" height="35" patternUnits="userSpaceOnUse"><path d="M35 0H0V35" stroke="#b7c7bd" stroke-opacity=".45" stroke-width=".6"/></pattern>
+  <clipPath id="disc"><circle cx="280" cy="270" r="250"/></clipPath>
+  <linearGradient id="shade" x1="150" y1="130" x2="410" y2="410" gradientUnits="userSpaceOnUse"><stop stop-color="#dee8d8"/><stop offset="1" stop-color="#bacdb3"/></linearGradient>
+</defs>
+<circle cx="280" cy="270" r="250" fill="#e7ece2"/>
+<g clip-path="url(#disc)"><rect x="15" y="5" width="530" height="530" fill="url(#grid)"/>
+<g stroke="#9fb49b" opacity=".65"><path d="M15 147h530M15 393h530M157 5v530M403 5v530" stroke-dasharray="3 6"/><path d="M15 270h530M280 5v530"/></g>
+<rect x="157" y="147" width="246" height="246" rx="3" fill="url(#shade)" stroke="#91a78a"/>
+<path d="M157 332c43-38 62-99 113-80s84 81 133 32v109H157z" fill="#66856c"/>
+<path d="M157 365c69-72 100 23 161-39s62-55 85-44v111H157z" fill="#214e43"/>
+<circle cx="333" cy="211" r="32" fill="#d3ea9b"/>
+<g stroke="#f7f8f5" stroke-opacity=".7" stroke-width=".8"><path d="M218 147v246M280 147v246M341 147v246M157 208h246M157 270h246M157 331h246"/></g>
+<rect x="102" y="89" width="94" height="94" fill="#f7f8f5" stroke="#a9bba2"/>
+<path d="M111 156l22-38 24 25 16-15 14 28z" fill="#8ca980"/><circle cx="174" cy="111" r="8" fill="#d3ea9b"/>
+<rect x="377" y="348" width="100" height="100" fill="#f7f8f5" stroke="#a9bba2"/>
+<circle cx="427" cy="398" r="30" stroke="#214e43"/><circle cx="427" cy="398" r="19" fill="#d3ea9b"/><path d="M397 398h60m-30-30v60" stroke="#214e43"/>
+<g stroke="#708d6c"><path d="M196 136h36v11M403 365h24v-17M137 183v41h20M403 240h55v108" stroke-dasharray="3 5"/></g>
+<g fill="#214e43"><circle cx="232" cy="147" r="3"/><circle cx="403" cy="365" r="3"/><circle cx="157" cy="224" r="3"/><circle cx="403" cy="240" r="3"/></g>
+<path d="M144 174v-40h40m192 0h40v40M144 366v40h40m192 0h40v-40" stroke="#173f3b" stroke-width="2"/>
+</g>
+<circle cx="280" cy="270" r="249.5" stroke="#becdbf"/>
+<circle cx="280" cy="270" r="216" stroke="#879b8b" stroke-dasharray="2 8" opacity=".55"/>
+<g stroke="#173f3b"><path d="M26 270h8m-4-4v8M526 270h8m-4-4v8M276 20h8m-4-4v8M276 520h8m-4-4v8"/></g>
+<text x="213" y="451" fill="#567165" font-size="10" font-family="monospace" letter-spacing="1.2">REPRESENTATION</text>
+<text x="213" y="468" fill="#567165" font-size="10" font-family="monospace" letter-spacing="1.2">&amp; UNDERSTANDING</text>
+</svg>
