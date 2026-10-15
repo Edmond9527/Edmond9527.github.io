@@ -1,5 +1,27 @@
 <!doctype html>
-<html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="DEAFFNet：双编码器自适应特征融合的 SAR 水体分割。李丰毅，论文第三作者，负责实验数据测量。"><meta name="theme-color" content="#f7f8f5"><title>DEAFFNet · 李丰毅 Fengyi Li</title><link rel="icon" href="../assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="../assets/style.css"><script src="../assets/main.js" defer></script></head>
-<body><a class="skip-link" href="#main">跳转到正文</a><header class="site-header"><div class="container header-inner"><a class="brand" href="../index.html" aria-label="返回李丰毅个人主页"><span class="brand-mark">FL<span></span></span><span>Fengyi Li<span class="brand-caption">个人主页</span></span></a><button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="展开导航"><span></span><span></span></button><nav id="site-nav" class="site-nav" aria-label="主导航"><a href="../index.html#research">研究与项目</a><a href="../index.html#about">关于我</a><a href="../index.html#contact">联系</a><a class="nav-cv" href="../assets/cv.pdf" target="_blank" rel="noopener">简历 ↗</a></nav></div></header>
-<main id="main" class="container detail-main"><a class="back-link" href="../index.html#research">← 返回研究与项目</a><header class="detail-header"><p class="eyebrow">02 / SELECTED PUBLICATION</p><h1>DEAFFNet<span class="name-dot">.</span></h1><p class="detail-subtitle">双编码器自适应特征融合的 SAR 水体分割</p><p class="detail-lead">结合局部细节与全局上下文，通过交叉注意力和自适应权重实现特征融合，面向复杂背景下的水体结构理解开展研究。</p><dl class="detail-meta"><div><dt>PUBLICATION</dt><dd>测绘学报 · 2026, 55(1): 101–113</dd></div><div><dt>MY ROLE</dt><dd>第三作者 · 实验数据测量</dd></div><div><dt>PERIOD</dt><dd>2025.11 — 2026.01</dd></div></dl></header>
-<div class="detail-content"><aside class="detail-aside" aria-label="本页目录"><a href="#overview">研究概述</a><a href="#method">模型结构</a><a href="#contribution">个人贡献</a><a href="#citation">论文信息</a></aside><div class="detail-body"><section class="detail-section" id="overview"><h2>研究概述</h2><p>复杂背景中的 SAR 水体分割需要同时利用局部边界细节和全局上下文。DEAFFNet 使用双编码器提取互补特征，通过交叉注意力建立交互，再以自适应权重进行融合。</p><p>解码过程中结合多尺度内容感知上采样，恢复水体细节，改善复杂场景中的特征表达。</p></section><section class="detail-section" id="method"><h2>模型结构</h2><figure class="detail-figure"><a href="../assets/deaffnet-architecture.jpg" target="_blank" rel="noopener"><img src="../assets/deaffnet-architecture.jpg" alt="DEAFFNet 原论文模型结构图：Swin Transformer 编码器、轻量化残差编码器、特征融合模块与解码器" width="942" height="1023"></a><figcaption>原论文中的 DEAFFNet 模型结构图。轻量化残差编码器与 Swin Transformer 编码器提取互补信息，经特征融合模块和解码器输出水体分割结果。点击图片可查看原图。</figcaption></figure></section><section class="detail-section" id="contribution"><h2>个人贡献</h2><p>我在该研究中<strong>负责实验数据测量</strong>，为论文第三作者。通过参与 SAR 水体分割实验，积累了相关任务的实验实践经验。</p></section><section class="detail-section" id="citation"><h2>论文信息</h2><div class="citation">韩斌，黄欣，<strong>李丰毅</strong>，卢晓珍．一种双编码器自适应特征融合的 SAR 图像水体分割网络．<em>测绘学报</em>，2026，55(1): 101–113．</div></section></div></div><nav class="detail-footer" aria-label="项目导航"><a href="wavemamba.html">← 上一项：WaveMamba</a><a href="report-assistant.html">下一项：文本智能分析与报告助手 ↗</a></nav></main><footer class="site-footer container"><p>© <span data-year>2026</span> 李丰毅 · Fengyi Li</p><a href="mailto:lifengyisci@163.com">lifengyisci@163.com ↗</a></footer></body></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="DEAFFNet: dual-encoder adaptive feature fusion for SAR water segmentation. Fengyi Li: third author, experimental data measurement.">
+  <meta name="theme-color" content="#ffffff">
+  <title>DEAFFNet | Fengyi Li</title>
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  <script src="../assets/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><div class="container header-inner"><a class="site-name" href="../index.html">Fengyi Li</a><nav class="site-nav" aria-label="Main navigation"><a href="../index.html#about">About</a><a href="../index.html#research">Publications</a><a href="../index.html#projects">Projects</a><a href="../assets/cv.pdf" target="_blank" rel="noopener">CV (Chinese)</a></nav></div></header>
+  <main id="main" class="container project-main">
+    <a class="back-link" href="../index.html#research">← Back to homepage</a>
+    <header class="project-header"><h1>DEAFFNet</h1><p class="project-subtitle">Water Body Segmentation Network for SAR Images Combining Dual Encoder and Adaptive Feature Fusion</p><div class="project-meta"><p>Bin Han, Xin Huang, <strong>Fengyi Li</strong>, and Xiaozhen Lu</p><p><em>Acta Geodaetica et Cartographica Sinica</em>, 55(1): 101–113, 2026.</p><p><strong>Third author · Experimental data measurement</strong></p><p>Research period: November 2025 – January 2026</p></div></header>
+    <section id="overview"><h2>Overview</h2><p>DEAFFNet combines local detail and global context for water segmentation in SAR images with complex backgrounds. A lightweight residual encoder and a Swin Transformer encoder extract complementary representations.</p></section>
+    <section id="method"><h2>Method</h2><p>The network uses cross-attention to exchange information between the two encoders and adaptive weights to fuse their features. The decoder integrates multi-scale content-aware upsampling to recover water-body details.</p></section>
+    <section id="contribution"><h2>My Contribution</h2><p>I was responsible for <strong>experimental data measurement</strong> and am the third author of the paper.</p></section>
+    <section id="citation"><h2>Reference</h2><p class="citation">Bin Han, Xin Huang, Fengyi Li, and Xiaozhen Lu. “Water Body Segmentation Network for SAR Images Combining Dual Encoder and Adaptive Feature Fusion.” <em>Acta Geodaetica et Cartographica Sinica</em>, vol. 55, no. 1, pp. 101–113, 2026.</p></section>
+    <nav class="project-navigation" aria-label="Project navigation"><a href="wavemamba.html">← WaveMamba</a><a href="report-assistant.html">Text Analysis and Reporting Assistant →</a></nav>
+  </main>
+  <footer class="container site-footer">© <span data-year>2026</span> Fengyi Li · <a href="mailto:lifengyisci@163.com">lifengyisci@163.com</a></footer>
+</body>
+</html>
