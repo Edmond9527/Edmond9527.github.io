@@ -102,3 +102,6 @@ figcaption { font-size: 14px; color: var(--muted); line-height: 1.65; margin-top
   .project-header h1 { font-size: 28px; }
   .project-subtitle { font-size: 17px; }
 }
+
+.site-nav .language-switch { color: var(--link); border: 1px solid #d5dce2; padding: 2px 10px; line-height: 1.7; }
+html[lang="zh-CN"] body { font-family: Arial, "PingFang SC", "Microsoft YaHei", sans-serif; }

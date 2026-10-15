@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="WaveMamba，IEEE GRSL 2026。李丰毅为共同第一作者（与指导老师共一），署名第 2 位。">
+  <meta name="theme-color" content="#ffffff">
+  <title>WaveMamba | 李丰毅</title>
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/style.css">
+  <script src="../assets/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳转到正文</a>
+  <header class="site-header"><div class="container header-inner"><a class="site-name" href="../index.zh.html">李丰毅</a><nav class="site-nav" aria-label="主导航"><a href="../index.zh.html#about">关于我</a><a href="../index.zh.html#research">论文</a><a href="../index.zh.html#projects">项目</a><a class="language-switch" href="wavemamba.html" lang="en" aria-label="切换至英文">English</a></nav></div></header>
+  <main id="main" class="container project-main">
+    <a class="back-link" href="../index.zh.html#research">← 返回主页</a>
+    <header class="project-header">
+      <h1>WaveMamba：方向感知小波解码器与 SAR 水体分割</h1>
+      <div class="project-meta"><p>韩斌、<strong>李丰毅</strong>、杜泓庆、詹为远</p><p><em>IEEE Geoscience and Remote Sensing Letters</em>, 23: 1505305, 2026.</p><p><strong>共同第一作者（与指导老师共一），署名第 2 位。</strong></p><p class="paper-links"><a href="https://doi.org/10.1109/LGRS.2026.3735322" target="_blank" rel="noopener noreferrer">[论文]</a></p></div>
+    </header>
+    <section id="overview"><h2>研究概述</h2><p>WaveMamba 针对 SAR 影像中的水体与暗背景混淆、细窄河道边界破碎问题，联合利用空间与频域信息，兼顾边界细节恢复和全局水体结构建模。</p></section>
+    <section id="method"><h2>方法</h2><ul><li><strong>方向感知小波解码器：</strong>将特征分解到不同频率子带，使用方向对齐的滤波器恢复高频边界细节。</li><li><strong>加权 Mamba 建模：</strong>通过加权多方向扫描，在低频子带中建立长程结构依赖。</li><li><strong>跨子带特征融合：</strong>在空间重构前校准并融合不同子带的特征。</li></ul><figure class="paper-figure"><a href="../assets/wavemamba-architecture.jpg" target="_blank" rel="noopener"><img src="../assets/wavemamba-architecture.jpg" alt="WaveMamba 模型结构及 DAWD、CSSE 和 WMB 模块" width="1312" height="890"></a><figcaption>原论文图 1：模型结构，以及方向感知小波解码器（DAWD）、跨子带注意力（CSSE）和加权 Mamba 模块（WMB）。点击图片可查看原图。</figcaption></figure></section>
+    <section id="contribution"><h2>个人贡献</h2><p>我<strong>独立完成方法设计、程序实现、实验验证与论文撰写</strong>，为<strong>共同第一作者（与指导老师共一）</strong>，署名第 2 位。</p><p>该工作是我主持的校级大学生创新训练项目的研究成果。我负责算法改进、环境配置、模型训练与测试，组织方法对比和消融实验。</p></section>
+    <section id="results"><h2>可视化结果</h2><p>在 ALOS PALSAR 与 Sentinel-1 数据集上进行实验，观察模型在复杂背景下对细窄河道和较大水体的分割表现。</p><figure class="paper-figure"><a href="../assets/wavemamba-results.jpg" target="_blank" rel="noopener"><img src="../assets/wavemamba-results.jpg" alt="WaveMamba 与其他方法在 ALOS PALSAR 和 Sentinel-1 上的分割结果对比" width="587" height="362" loading="lazy"></a><figcaption>原论文图 2：前两行为 ALOS PALSAR，后两行为 Sentinel-1。(a) 输入影像；(b) RS3Mamba；(c) LRFormer；(d) CTCFNet；(e) TA-TransUNet；(f) WaveMamba；(g) 真实标注。</figcaption></figure></section>
+    <section id="citation"><h2>参考文献</h2><p class="citation">Bin Han, Fengyi Li, Hongqing Du, and Weiyuan Zhan. “WaveMamba: A Directional Wavelet Decoder for Water Body Detection in SAR Imagery.” <em>IEEE Geoscience and Remote Sensing Letters</em>, vol. 23, 2026, Art. no. 1505305. DOI: <a href="https://doi.org/10.1109/LGRS.2026.3735322" target="_blank" rel="noopener noreferrer">10.1109/LGRS.2026.3735322</a>.</p></section>
+    <nav class="project-navigation" aria-label="项目导航"><a href="../index.zh.html#research">全部论文</a><a href="deaffnet.zh.html">DEAFFNet →</a></nav>
+  </main>
+  <footer class="container site-footer">© <span data-year>2026</span> 李丰毅 · <a href="mailto:lifengyisci@163.com">lifengyisci@163.com</a></footer>
+</body>
+</html>

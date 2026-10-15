@@ -7,10 +7,10 @@ Research interests: computer vision, general-purpose models, and large multimoda
 ## Content
 
 - `index.html`: biography, publications, projects, education, honors, and contact details.
-- `projects/`: English descriptions of the two publications and the reporting assistant.
+- `index.zh.html` and `projects/*.zh.html`: Chinese versions of the same pages.
+- `projects/`: descriptions of the two publications and the reporting assistant.
 - `assets/style.css`: typography, layout, and responsive styles.
-- `assets/main.js`: footer year.
-- `assets/cv.pdf`: the original Chinese CV, identified as such in download links.
+- `assets/main.js`: footer year and section-preserving language links.
 
 Personal information and research contributions are supplied by Fengyi Li. Figures are reproduced from the WaveMamba paper with captions and a link to the paper.
 
@@ -20,4 +20,4 @@ GitHub Pages publishes the `main` branch from the repository root. Push website 
 
 For a local preview, open `index.html` in a browser or serve this directory with a static HTTP server. No build or external dependencies are required.
 
-Update the academic year alongside rankings and revise the innovation-project dates when its status changes.
+Maintain both language versions when editing content. Update the academic year alongside rankings and revise the innovation-project dates when its status changes.
