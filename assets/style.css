@@ -33,6 +33,10 @@ h1 { color: var(--heading); font-size: 38px; line-height: 1.25; font-weight: 500
 .profile-links { display: flex; flex-wrap: wrap; gap: 9px 14px; margin-top: 16px; }
 .profile-links > span { color: #9aafc1; }
 .biography { margin-top: 27px; }
+.biography p,
+.publication .contribution,
+.experience > p:not(.entry-meta, .paper-links),
+.project-main section > p { text-align: justify; }
 .biography p + p { margin-top: 15px; }
 main > section + section { margin-top: 37px; }
 h2 { color: var(--heading); font-size: 26px; font-weight: 500; line-height: 1.4; border-left: 3px solid var(--accent); border-bottom: 1px solid var(--line); padding: 0 0 7px 12px; margin-bottom: 22px; }
