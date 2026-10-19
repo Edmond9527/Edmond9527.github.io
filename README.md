@@ -2,7 +2,7 @@
 
 Personal academic homepage: https://edmond9527.github.io/
 
-Research interests: computer vision, general-purpose models, and large multimodal models. Current research includes remote sensing image segmentation.
+Research interests: computer vision, with a focus on vision foundation models and large multimodal models. Current research includes remote sensing image segmentation.
 
 ## Content
 
@@ -12,7 +12,7 @@ Research interests: computer vision, general-purpose models, and large multimoda
 - `assets/style.css`: typography, layout, and responsive styles.
 - `assets/main.js`: footer year and section-preserving language links.
 
-Personal information and research contributions are supplied by Fengyi Li. Figures are reproduced from the WaveMamba paper with captions and a link to the paper.
+Personal information and research contributions are supplied by Fengyi Li. Figures are reproduced from the WaveMamba and DEAFFNet papers with captions and links to the papers.
 
 ## Deployment
 
